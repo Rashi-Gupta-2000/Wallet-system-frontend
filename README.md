@@ -88,8 +88,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 Running the Application
 
 Start the development server
-bashnpm run dev
-# or
+bash npm run dev
+or
 npm start
 
 Open your browser
