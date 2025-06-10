@@ -1,7 +1,7 @@
 Digital Wallet React Application
 A modern, responsive digital wallet application built with React.js that allows users to manage their wallet balance and track transactions.
 
-#Features:
+# Features:
 
 🏦 Wallet Management: Create and manage digital wallets with custom names
 💰 Balance Tracking: Real-time balance updates and display
