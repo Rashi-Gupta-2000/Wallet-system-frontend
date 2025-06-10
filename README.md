@@ -12,7 +12,7 @@ A modern, responsive digital wallet application built with React.js that allows 
 🔄 Real-time Updates: Automatic balance and transaction refresh
 📱 Responsive Design: Mobile-friendly interface
 
-#Tech Stack
+# Tech Stack
 
 Frontend: React.js 18+ with Hooks
 Styling: CSS
@@ -27,7 +27,7 @@ Node.js (version 16 or higher)
 npm or yarn package manager
 A backend API server running on http://localhost:3000 (see API Requirements section)
 
-#Installation
+# Installation
 
 Clone the repository
 bash git clone <repository-url>
@@ -39,7 +39,7 @@ bash npm install
 Install required dependencies
 bash npm install react react-dom
 
-#Project Structure
+# Project Structure
 src/
 ├── api/
 │   └── walletApi.js          # API service layer
@@ -69,7 +69,7 @@ src/
 │   └── formatters.js         # Data formatting utilities
 └── App.jsx                   # Main application component
 
-#Setup Instructions
+# Setup Instructions
 1. Update API Configuration
 In src/api/walletApi.js, update the API base URL if needed:
 javascriptconst API_BASE_URL = 'http://localhost:3000' // Update this URL
@@ -95,7 +95,7 @@ npm start
 Open your browser
 Navigate to http://localhost:5173 (or the port shown in terminal)
 
-#API Requirements
+# API Requirements
 This application expects a backend API with the following endpoints:
 Required Endpoints
 
@@ -134,7 +134,7 @@ json[
   }
 ]
 
-#Usage Guide
+# Usage Guide
 1. Creating a Wallet
 
 Enter a wallet name (required)
@@ -165,13 +165,13 @@ bash npm run build
 
 This creates a build (or dist) folder with optimized production files.
 
-#Debug Mode
+# Debug Mode
 Add this to see API requests in console:
 javascript// In walletApi.js, uncomment console.log statements
 console.log('API request:', url, config)
 Contributing
 
-#Fork the repository
+# Fork the repository
 Create a feature branch (git checkout -b feature/amazing-feature)
 Commit your changes (git commit -m 'Add some amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
