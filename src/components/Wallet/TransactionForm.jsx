@@ -11,7 +11,6 @@ const TransactionForm = ({ onTransaction, loading, error, onClearError }) => {
   const [type, setType] = useState('CREDIT')
 
   const handleSubmit = async (e) => {
-    console.log(description)
     e.preventDefault()
     if (amount && parseFloat(amount) > 0) {
       const transactionAmount = type === 'CREDIT' 
@@ -73,7 +72,6 @@ const TransactionForm = ({ onTransaction, loading, error, onClearError }) => {
           type="text"
           value={description}
           onChange={(e) => {
-            console.log(e.target.value)
             setDescription(e.target.value)
           }}
           placeholder="Enter transaction description..."

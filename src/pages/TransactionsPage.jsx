@@ -23,8 +23,6 @@ const TransactionsPage = ({ wallet, transactions, onNavigateToWallet,
     handleSort,
   } = useTransactionTable(transactions)
 
-  console.log(transactions);
-
   const handleExport = () => {
     exportTransactionsToCSV(sortedTransactions, wallet?.username)
   }

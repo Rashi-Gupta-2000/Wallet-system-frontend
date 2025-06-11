@@ -8,7 +8,6 @@ function App() {
   const { wallet, transactions, initializeWallet, processTransaction, loading, error, loadMoreTransactions, clearError} = useWallet()
 
   const handleTransaction = async (amount, type, description) => {
-    console.log(description, "des")
     return await processTransaction(amount, description, type)
   }
 
