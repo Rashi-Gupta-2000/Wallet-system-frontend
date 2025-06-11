@@ -27,7 +27,10 @@ const WalletPage = ({ wallet, onWalletSetup, onTransaction, onNavigateToTransact
                 onClearError={onClearError}
               />
             <div className="centerContent">
-              <Button onClick={onNavigateToTransactions}>
+                <Button onClick={() => {
+                  onNavigateToTransactions();
+                  onClearError();
+                }}>
                 View Transaction History
               </Button>
             </div>

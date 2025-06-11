@@ -74,7 +74,6 @@ export const useWallet = () => {
 
   const processTransaction = useCallback(
     async (amount, description = "", type) => {
-      console.log(description, "process");
       if (!wallet || !amount || parseFloat(amount) === 0 || !type) return false;
 
       setLoading(true);
