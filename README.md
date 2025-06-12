@@ -42,7 +42,7 @@ bash npm install
 Install required dependencies
 bash npm install react react-dom
 
-# Project Structure
+## Project Structure
 
 src/ <br>
 ├── api/ <br>
