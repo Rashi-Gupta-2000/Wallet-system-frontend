@@ -43,34 +43,35 @@ Install required dependencies
 bash npm install react react-dom
 
 # Project Structure
-src/
-├── api/
-│   └── walletApi.js          # API service layer
+
+src/ <br>
+├── api/ <br>
+│   └── walletApi.js          # API service layer <br>
 ├── hooks/
-│   ├── useWallet.js          # Main wallet state management
-│   └── useTransactionTable.js # Transaction table logic
+│   ├── useWallet.js          # Main wallet state management <br>
+│   └── useTransactionTable.js # Transaction table logic <br>
 ├── components/
 │   ├── UI/
-│   │   ├── Button.jsx        # Reusable button component
-│   │   ├── Input.jsx         # Form input component
-│   │   ├── Card.jsx          # Card container component
-│   │   ├── LoadingSpinner.jsx # Loading indicator
-│   │   └── ErrorMessage.jsx  # Error display component
-│   ├── Wallet/
-│   │   ├── WalletSetup.jsx   # Initial wallet creation
-│   │   ├── WalletBalance.jsx # Balance display
-│   │   └── TransactionForm.jsx # Add transaction form
-│   └── Transactions/
-│       ├── TransactionTable.jsx # Transaction list table
-│       └── Pagination.jsx    # Table pagination
-├── pages/
-│   ├── WalletPage.jsx        # Main wallet page
-│   └── TransactionsPage.jsx  # Transaction history page
-├── utils/
-│   ├── apiHelpers.js         # Error handling 
-│   ├── csvExport.js          # CSV export functionality
-│   └── formatters.js         # Data formatting utilities
-└── App.jsx                   # Main application component
+│   │   ├── Button.jsx        # Reusable button component<br>
+│   │   ├── Input.jsx         # Form input component <br>
+│   │   ├── Card.jsx          # Card container component <br>
+│   │   ├── LoadingSpinner.jsx # Loading indicator <br>
+│   │   └── ErrorMessage.jsx  # Error display component <br>
+│   ├── Wallet/<br>
+│   │   ├── WalletSetup.jsx   # Initial wallet creation<br>
+│   │   ├── WalletBalance.jsx # Balance display <br>
+│   │   └── TransactionForm.jsx # Add transaction form <br>
+│   └── Transactions/ <br>
+│       ├── TransactionTable.jsx # Transaction list table <br>
+│       └── Pagination.jsx    # Table pagination <br>
+├── pages/ <br>
+│   ├── WalletPage.jsx        # Main wallet page <br>
+│   └── TransactionsPage.jsx  # Transaction history page <br>
+├── utils/ <br>
+│   ├── apiHelpers.js         # Error handling  <br>
+│   ├── csvExport.js          # CSV export functionality <br>
+│   └── formatters.js         # Data formatting utilities <br>
+└── App.jsx                   # Main application component <br>
 
 # Setup Instructions
 1. Update API Configuration
