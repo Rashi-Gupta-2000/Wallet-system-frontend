@@ -47,11 +47,11 @@ bash npm install react react-dom
 src/ <br>
 ├── api/ <br>
 │   └── walletApi.js          # API service layer <br>
-├── hooks/
+├── hooks/ <br>
 │   ├── useWallet.js          # Main wallet state management <br>
 │   └── useTransactionTable.js # Transaction table logic <br>
-├── components/
-│   ├── UI/
+├── components/ <br>
+│   ├── UI/ <br>
 │   │   ├── Button.jsx        # Reusable button component<br>
 │   │   ├── Input.jsx         # Form input component <br>
 │   │   ├── Card.jsx          # Card container component <br>
