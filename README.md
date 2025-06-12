@@ -46,32 +46,32 @@ bash npm install react react-dom
 
 src/ <br>
 ├── api/ <br>
-│   └── walletApi.js          # API service layer <br>
+│   └── walletApi.js           <br>
 ├── hooks/ <br>
-│   ├── useWallet.js          # Main wallet state management <br>
-│   └── useTransactionTable.js # Transaction table logic <br>
+│   ├── useWallet.js           <br>
+│   └── useTransactionTable.js  <br>
 ├── components/ <br>
 │   ├── UI/ <br>
-│   │   ├── Button.jsx        # Reusable button component<br>
-│   │   ├── Input.jsx         # Form input component <br>
-│   │   ├── Card.jsx          # Card container component <br>
-│   │   ├── LoadingSpinner.jsx # Loading indicator <br>
-│   │   └── ErrorMessage.jsx  # Error display component <br>
+│   │   ├── Button.jsx       <br>
+│   │   ├── Input.jsx         <br>
+│   │   ├── Card.jsx           <br>
+│   │   ├── LoadingSpinner.jsx  <br>
+│   │   └── ErrorMessage.jsx   <br>
 │   ├── Wallet/<br>
-│   │   ├── WalletSetup.jsx   # Initial wallet creation<br>
-│   │   ├── WalletBalance.jsx # Balance display <br>
-│   │   └── TransactionForm.jsx # Add transaction form <br>
+│   │   ├── WalletSetup.jsx  <br>
+│   │   ├── WalletBalance.jsx  <br>
+│   │   └── TransactionForm.jsx  <br>
 │   └── Transactions/ <br>
-│       ├── TransactionTable.jsx # Transaction list table <br>
-│       └── Pagination.jsx    # Table pagination <br>
+│       ├── TransactionTable.jsx  <br>
+│       └── Pagination.jsx     <br>
 ├── pages/ <br>
-│   ├── WalletPage.jsx        # Main wallet page <br>
-│   └── TransactionsPage.jsx  # Transaction history page <br>
+│   ├── WalletPage.jsx         <br>
+│   └── TransactionsPage.jsx   <br>
 ├── utils/ <br>
-│   ├── apiHelpers.js         # Error handling  <br>
-│   ├── csvExport.js          # CSV export functionality <br>
-│   └── formatters.js         # Data formatting utilities <br>
-└── App.jsx                   # Main application component <br>
+│   ├── apiHelpers.js          <br>
+│   ├── csvExport.js           <br>
+│   └── formatters.js         <br>
+└── App.jsx                    <br>
 
 # Setup Instructions
 1. Update API Configuration
